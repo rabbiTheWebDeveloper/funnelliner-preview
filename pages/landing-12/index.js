@@ -28,7 +28,6 @@ import Footer4 from '../../Components/LandingPage/Common/Footer4/Footer4';
 
 const index = () => {
 
-    // const swiperRef = useRef();
 
     return (
 

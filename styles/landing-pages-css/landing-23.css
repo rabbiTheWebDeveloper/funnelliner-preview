@@ -47,7 +47,6 @@
       background:#FFF;
       background-size: 180% auto;
       display: inline-block;
-      transition: .2s;
       font-weight: 600;
       border-radius: 10px;
       font-size: 32px;
@@ -109,7 +108,6 @@
     #f300b6 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -134,7 +132,6 @@
     #f300b6 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -178,13 +175,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all .2s;
     border-radius: 10px;
-  }
-
-  .Landing__23__ShippingIcon{
     outline: 1px dashed #BB3D3E;
     outline-offset: -10px;
   }
-
 
 
   .Landing__23__ShipImg1{
@@ -281,7 +274,6 @@
     background:#BB3D3E;
     background-size: 180% auto;
     display: inline-block;
-    transition: .2s;
     font-weight: 600;
     border-radius: 10px;
     font-size: 28px;
@@ -329,7 +321,6 @@
     background-size: 180% auto;
     display: inline-block;
     outline: 4px solid #BB3D3E;
-    transition: .2s;
     font-weight: 600;
     border-radius: 10px;
     font-size: 28px;
@@ -383,12 +374,11 @@
     position: absolute;
     bottom:-30px;
     left: 44%;
-    background: none;
     font-size: 28px;
     color:#ffffff;
     width: 11px;
     height: 11px;
-    background:#D9D9D9;
+    background-color:#D9D9D9;
     z-index: 2;
     border-radius: 100px;
   }
@@ -397,12 +387,11 @@
     position: absolute;
     bottom:-30px;
     left: 47%;
-    background: none;
     font-size: 28px;
     color:#fffcfc;
     width: 11px;
     height:11px;
-    background:#D9D9D9;
+    background-color:#D9D9D9;
     z-index: 2;
     border-radius: 100px;
   }
@@ -411,12 +400,11 @@
     position: absolute;
     bottom:-30px;
     left: 50%;
-    background: none;
     font-size: 28px;
     color:#ffffff;
     width: 11px;
     height: 11px;
-    background:#D9D9D9;
+    background-color:#D9D9D9;
     z-index: 2;
     border-radius: 100px;
   }
@@ -425,12 +413,11 @@
     position: absolute;
     bottom:-30px;
     left: 53%;
-    background: none;
     font-size: 28px;
     color:#fff0f0;
     width: 11px;
     height: 11px;
-    background:#D9D9D9;
+    background-color:#D9D9D9;
     z-index: 2;
     border-radius: 100px;
   }
@@ -499,24 +486,17 @@
 
 
 .Landing__23 #OrderConfirmLeft #Payment #ArrowBg {
-  background:#fff;
+  background-color:#fff;
 }
 
 .Landing__23 #OrderConfirmRight button {
-  background:#fff;
+  background-color:#fff;
 }
 
-.Landing__23 #OrderConfirmLeft #Payment #ArrowBg p {
-  color: #ffffff;
-}
 
 .Landing__23 #OrderConfirmLeft #Payment #ArrowBg::after {
 border-bottom:15px solid  #fff;
 } 
-
-.Landing__23 #OrderConfirmLeft #Payment #CustomeInput input:checked+label:before {
-  background:#fff;
-}
 
 .Landing__23 #OrderConfirmLeft #Payment h3 {
   padding: 20px;
@@ -526,6 +506,7 @@ border-bottom:15px solid  #fff;
 
 .Landing__23 #OrderConfirmRight button {
   color: #c91717;
+  background-color:#fff;
 }
 
 .Landing__23 #OrderConfirmLeft #Payment {
@@ -605,14 +586,7 @@ border-bottom:15px solid  #fff;
            Midea Quary
   ===================================================================================================*/
 
- 
-  @media (max-width: 1641px) {
 
-
-
-
-  }
-  
    @media (max-width: 1400px) {
   
     .Landing__23 h1 {

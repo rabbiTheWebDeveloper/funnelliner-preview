@@ -4,9 +4,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsCheckCircleFill} from 'react-icons/bs';
 
-// import Order from "../Common/Order";
-// logo
-
 
 import landingImageUrl from "../../public/images/landing-10/logo9.svg";
 import MenubarLeft from '../../Components/LandingPage/Common/Menubar/MenubarLeft';

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
-import Footer from '@/Components/MultiPage/MultiPage-1/FooterM1'
-import Menubar from '@/Components/MultiPage/MultiPage-1/MenubarM1'
+import Footer from '../../../Components/MultiPage/MultiPage-1/FooterM1'
+import Menubar from '../../../Components/MultiPage/MultiPage-1/MenubarM1'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import ProgressBar from 'react-bootstrap/ProgressBar';

@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 
 import landingImageUrl from "./../../public/images/landing-1/logo.svg";
-// import Menubar from './../../Components/LandingPage/Common/Menubar/Menubar';
+import Menubar from './../../Components/LandingPage/Common/Menubar/Menubar';
 import Footer4 from '../../Components/LandingPage/Common/Footer4/Footer4';
 import Order from './../../Components/LandingPage/Common/Order/Order';
 import CustomerReview from './../../Components/LandingPage/Common/CustomerReview/CustomerReview';
@@ -31,9 +31,9 @@ const ChocolateBox = () => {
                 {/* -------------------------------------------------------------------------------------------------------------------------------------------------
                 Logo
                 -----------------------------------------------------------------------------------------------------------------------------------------------------*/}
-                <section className='logo'>
+                <section className='Logo'>
 
-                    {/* <Menubar logoImage={landingImageUrl}></Menubar> */}
+                    <Menubar logoImage={landingImageUrl}></Menubar>
 
                 </section>
 

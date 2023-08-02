@@ -96,14 +96,12 @@
     width: 110%;
     margin-left: -5%;
     position: relative;
+    animation: gdyngf354A 1s ease-in-out alternate infinite;
 }
 
 
 /* All Animation */
  
-.Landing__25__Bannerimg1{
-  animation: gdyngf354A 1s ease-in-out alternate infinite;
-}
 
 @keyframes gdyngf354A {
   from {top:0}
@@ -155,7 +153,6 @@
     #ff1361 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -359,7 +356,6 @@
 
 .Landing__25__Card{
   background-image: linear-gradient(to top,#FDFDFD,#FFA78C);
-  text-align: center;
   margin-top: 100px;
   border-radius: 50px;
   text-align: center;
@@ -451,11 +447,10 @@
   position: absolute;
   margin-top: -11%;
   left: -30px;
-  background: none;
   font-size: 40px;
   color:#E95F65;
   width: 62px;
-  background:#FFF;
+  background-color:#FFF;
   z-index: 2;
   border-radius: 100px;
   outline: none;
@@ -466,11 +461,10 @@
   position: absolute;
   margin-top: -11%;
   right:-30px;
-  background: none;
   font-size: 40px;
   color:#E95F65;
   width: 62px;
-  background:#FFF;
+  background-color:#FFF;
   z-index: 2;
   border-radius: 100px;
   outline: none;
@@ -645,6 +639,7 @@ border-bottom:15px solid  #C53407;
 
   .Landing__25__FooterItemImg {
     max-height: 140px;
+    margin-top: -150px;
  }
 
   .Landing__25__FooterDiv{
@@ -654,11 +649,7 @@ border-bottom:15px solid  #C53407;
   
   }
   
-  .Landing__25__Hr{
-    width: 100px;
-    border-bottom: 1px solid #FFD54C;
-    margin: 13px 0px;
-  }
+ 
   
   .Landing__25__FooterItem h4{
     font-size: 24px;
@@ -684,10 +675,6 @@ border-bottom:15px solid  #C53407;
     margin-top: 15px;
   }
   
-  .Landing__25__FooterItemImg{
-    margin-top: -150px;
-  }
-  
   
   .Landing__25__FooterItem h5{
      background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
@@ -698,7 +685,10 @@ border-bottom:15px solid  #C53407;
     font-weight: 900;
   }
 
+
   .Landing__25__Hr{
+    width: 100px;
+    margin: 13px 0px;
     border-bottom: 1px dashed #441A17;
     margin-top: 80px;
   }
@@ -958,11 +948,7 @@ border-bottom:15px solid  #C53407;
 
   }
 
-  
-   @media (max-width: 1400px) {
-  
-  
-  }
+
   
   
   @media (max-width: 1280px) {
@@ -1277,7 +1263,6 @@ border-bottom:15px solid  #C53407;
 
 
 
-
   }
   
   
@@ -1302,12 +1287,6 @@ border-bottom:15px solid  #C53407;
   position: relative;
 }
 
-.Landing__25 .BannertxtAbs2 {
-  position: absolute;
-  top: -50px;
-  right: 109px;
-  height: 99px;
-}
 
 .Landing__25 .BannertxtAbs1 h4 {
   font-size: 16px;
@@ -1349,12 +1328,7 @@ border-bottom:15px solid  #C53407;
 
       }
   
-  @media (max-width: 450px) {
-  
-     
-      }
  
-
 
 
 

@@ -10,13 +10,9 @@
     --white: #FFF;
     --sari_bg : #EC3361;
     --probashi_bg : #FF0034;
-}
-
-
-.Landing__2 {
-    
     overflow-x: hidden;
 }
+
 
 .Landing__2 a {
     font-weight: 400;
@@ -281,6 +277,8 @@
     transition-delay: 0.5s;
 }
 
+
+
 .Landing__2 .ProbashiPackage .CallForOrder a span:nth-child(2) {
     background: linear-gradient(180deg, transparent, #FFF);
 }
@@ -431,11 +429,6 @@
     background: linear-gradient(270deg, transparent, #FF0034);
 }
 
-.Landing__2 .ProbashiPackage .CallForOrder a:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
 
 .Landing__2 .ProbashiPackage .SariAbout .CallForOrder a span:nth-child(2) {
     background: linear-gradient(180deg, transparent, #FF0034);
@@ -610,7 +603,9 @@
 
 .Landing__2 .FooterLogo {
     margin-right: 50px;
+    margin-left: 25%;
 }
+
 
 .Landing__2 .FooterLogo img {
     height: 80px;
@@ -627,7 +622,9 @@
 
 .Landing__2 .FooterItem {
     margin-bottom: 10px;
+    margin-left: 25%;
 }
+
 
 .Landing__2 .FooterItem h4 {
     font-size: 20px;
@@ -670,13 +667,8 @@
     line-height: 30px;
 }
 
-.Landing__2 .FooterItem{
-    margin-left: 25%;
-}
 
-.Landing__2 .FooterLogo{
-    margin-left: 25%;
-}
+
 
 
 /* ==================================================================================
@@ -717,11 +709,6 @@
     .Landing__2 .StudentPackage .CallForOrder a {
         font-size: 20px;
         line-height: 30px;
-    }
-
-
-    .Landing__2 .StudentPackage .SliderOverlayItem img {
-        height: 400px;
     }
 
     .Landing__2 .MainPage .PackageItem .text p {
@@ -915,12 +902,10 @@
         font-weight: 600;
         color: #f8406f;
         padding: 0 5px;
-    }
-
-    .Landing__2 .tiny-footer_tinyFooter__Tr3b1 p a {
         line-height: 26px;
         text-align: center;
     }
+
 
 
     .Landing__2 .tiny-footer_tinyFooter__Tr3b1 p {
@@ -1055,6 +1040,7 @@
 
     .Landing__2 .FooterLogo {
         margin-right: 0;
+        margin-left: 0%;
     }
 
     .Landing__2 .StudentPackage .VideoItem div {
@@ -1077,14 +1063,6 @@
 
     .Landing__2 .ProbashiPackage .BannerText h2 {
         color: #ffffff;
-    }
-
-    .Landing__2 .ProbashiPackage .Banner h1 {
-        color: #000;
-    }
-
-    .Landing__2 .ProbashiPackage .Banner h3 {
-        color: #000;
     }
 
     .Landing__2 .ProbashiPackage .CallForOrder a{
@@ -1183,10 +1161,7 @@
         margin-left: 0%;
     }
     
-    .Landing__2 .FooterLogo{
-        margin-left: 0%;
-    }
-
+   
 
 
 }
@@ -1240,20 +1215,13 @@
         font-size: 13px;
     }
 
-    .Landing__2 .StudentPackage h2 {
-        font-size: 28px;
-        line-height: 35px;
-    }
 
-    .Landing__2 .StudentPackage .SliderOverlayItem img {
-        height: 280px;
-    }
 
     .Landing__2 .StudentPackage .VideoItem div {
         width: 100% !important;
-        height: 300px !important;
+        height: 250px !important;
     }
-
+   
     .Landing__2 .StudentPackage .VideoItem {
         padding: 15px;
     }
@@ -1430,13 +1398,6 @@
         color: #ffffff;
     }
 
-    .Landing__2 .ProbashiPackage .Banner h1 {
-        font-size: 40px;
-        line-height: 50px;
-        color: #ffffff;
-        margin: 15px 0;
-    }
-
     .Landing__2 .ProbashiPackage .Banner h3 {
         color: #ffffff;
     }
@@ -1453,9 +1414,7 @@
     }
 
 
-    .Landing__2 .StudentPackage .VideoItem div {
-        height: 250px !important;
-    }
+ 
 
     .Landing__2 .StudentPackage .StudentSlider img {
         height: 500px;

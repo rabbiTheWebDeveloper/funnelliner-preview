@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import TinyFooter from '@/LandingPage/Common/TinyFooter/TinyFooter';
+import TinyFooter from '../../LandingPage/Common/TinyFooter/TinyFooter';
 
 // icon
 

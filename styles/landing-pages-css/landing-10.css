@@ -121,9 +121,6 @@
     margin-bottom: 40px;
   }
   
-  .Landing__10 a.bg:hover {
-    transform: scale(1.02);
-  }
   
   .Landing__10 a svg {
     font-size: 25px;
@@ -142,6 +139,7 @@
     background-position: right center;
     color: #fff;
     text-decoration: none;
+    transform: scale(1.02);
   }
   
   .Landing__10 .section_gaps {
@@ -158,6 +156,7 @@
     position: relative;
     z-index: 5;
   }
+
   
   .Landing__10 .text h2 {
     color: var(--bg_color4);
@@ -292,10 +291,7 @@
     }
   }
   
-  .Landing__10 .btnBox {
-    display: flex;
-    justify-content: center;
-  }
+ 
   
   .Landing__10 .OrderBtn h5 {
     margin-top: 60px;

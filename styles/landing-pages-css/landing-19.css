@@ -128,10 +128,6 @@ Navbar
     z-index: 9;
 }
 
-.Landing__19 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk {
-    position: relative;
-    display: inline-block;
-}
 
 .Landing__19 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk::before {
     position: absolute;
@@ -156,11 +152,13 @@ Navbar
 .Landing__19 .menubar_MenubarContent__jlW_b .menubar_Logo__pd9Tk {
     text-align: center;
     margin-top: 20px;
+    position: relative;
+    display: inline-block;
 }
 
 
 /* ================================================================================================
-Banner
+        Banner
 ===================================================================================================*/
 
 .Landing__19__Banner {
@@ -797,11 +795,6 @@ Landing__19__Footer
 }
 
 
-@media (max-width: 767px) {
-
-
-}
-
 
 @media (max-width: 575px) {
 
@@ -818,11 +811,6 @@ Landing__19__Footer
     .Landing__19 h1 {
         font-size: 24px;
         line-height: 38px;
-    }
-
-    .Landing__19 h2 {
-        font-size: 28px;
-        line-height: 40px;
     }
 
     .Landing__19__Banner__Price{

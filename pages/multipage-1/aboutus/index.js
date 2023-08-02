@@ -1,7 +1,7 @@
 // import AboutUs from '@/components/MultiPage/Common/AboutUs'
-import AboutUs from '@/Components/MultiPage/Common/AboutUs'
-import Footer from '@/Components/MultiPage/MultiPage-1/FooterM1'
-import Menubar from '@/Components/MultiPage/MultiPage-1/MenubarM1'
+import AboutUs from '../../../Components/MultiPage/Common/AboutUs'
+import Footer from '../../../Components/MultiPage/MultiPage-1/FooterM1'
+import Menubar from '../../../Components/MultiPage/MultiPage-1/MenubarM1'
 import React from 'react'
 
 const index = () => {

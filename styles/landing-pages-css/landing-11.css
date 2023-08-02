@@ -168,33 +168,51 @@
 /*    Anim3 */
 
 .Landing__11 .TableAbs3 {
- animation: mymove2a 2s linear infinite alternate ;
+    animation: mymove2a 2s linear infinite alternate ;
+    width: 200px;
+    position: absolute;
+    top:-100px;
+    right:-100px;
 
 }
+
 .Landing__11 .TableAbs4 {
- animation: mymove3a 2s linear infinite alternate ;
-
+    animation: mymove3a 2s linear infinite alternate ;
+    width: 200px;
+    position: absolute;
+    bottom:-90px;
+    left:-150px;
 }
+
+   
 
 @keyframes mymove2a {
- from {}
+
  to {top:5px}
 }
 
 @keyframes mymove3a {
- from {}
+
  to {bottom:5px}
 }
 
 /*    Anim2 */
 
-
 .Landing__11 .StoreAbs1 {
- animation: mymove4a 7s linear infinite alternate ;
-}
-.Landing__11 .StoreAbs2 {
- animation: mymove5a 7s linear infinite alternate ;
-}
+    animation: mymove4a 7s linear infinite alternate ;
+    top:0;
+    left:70px;
+    position: absolute;
+   }
+
+   .Landing__11 .StoreAbs2 {
+    animation: mymove5a 7s linear infinite alternate ;
+    bottom:-100px;
+    right:100px;
+    position: absolute;
+
+   }
+
 
 @keyframes mymove4a {
  from {top:0}
@@ -215,7 +233,6 @@
 
 .Landing__11 .bgimg{
  background-image: url('../../public/images/landing-11/bgimg.png');
- /* padding: 43px 0px 177px 0px; */
  padding: 43px 0px 162px 0px;
  background-size: cover;
  
@@ -307,35 +324,19 @@ width: 60%;
                HONEY STORE
 =============================================================================================================================*/
 
-.Landing__11 .StoreRel{
- position: relative;
-}
-
-.Landing__11 .StoreAbs1{
- top:0;
- left:70px;
- position: absolute;
-}
-
-.Landing__11 .StoreAbs2{
- bottom:-100px;
- right:100px;
- position: absolute;
-}
 
 
 
 .Landing__11 .Storeimg1{
- width: 100%;
-}
-.Landing__11 .Storeimg2{
- width: 100%;
+    width: 100%;
 }
 
 .Landing__11 .Storeimg2{
- margin-top: 20px;
- margin-left: 10%;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10%;
 }
+
 
 .Landing__11 .StoreCol2{
  padding-left: 26px;
@@ -372,7 +373,7 @@ padding-top: 27px;
 .Landing__11 .StoreRel{
  position: relative;
 }
-
+   
 .Landing__11 .Storeh5{
  position: absolute;
  top: 50px;
@@ -480,25 +481,8 @@ padding-top: 27px;
               Table Section
 =============================================================================================================================*/
 
-.Landing__11 .TableBoxRow{
 
- position: relative;
 
-}
-
-.Landing__11 .TableAbs3{
- width: 200px;
- position: absolute;
- top:-100px;
- right:-100px;
-}
-
-.Landing__11 .TableAbs4{
- width: 200px;
- position: absolute;
- bottom:-90px;
- left:-150px;
-}
 
 
 .Landing__11 .TableBoxH2 h2{
@@ -512,13 +496,13 @@ padding-top: 27px;
 }
 
 .Landing__11 .TableBoxRow{
-
- border: 1px solid #593A1B;
- box-sizing: border-box;
+    border: 1px solid #593A1B;
+    box-sizing: border-box;
+    position: relative;
 }
 
-.Landing__11 .TableBoxCol{
 
+.Landing__11 .TableBoxCol{
  border: 1px solid #593A1B;
  height: 20% vh!important;
  padding: 60px 20px;
@@ -572,14 +556,6 @@ color: #FFFFFF ;
               Discussion Honey
 =============================================================================================================================*/
 
-
-
-
-
-
-.Landing__11 .Conpad{
- position: relative;
-}
 
 .Landing__11 .HoneyAbs5{
  position: absolute;
@@ -821,8 +797,7 @@ height: 509px;
  line-height: 30px;
  color:#FFFFFF;
  margin-left: 12px;
- font-family: 'Ruda' !important;
- 
+
 }
 
 .Landing__11 .FooterTxtdiv li{

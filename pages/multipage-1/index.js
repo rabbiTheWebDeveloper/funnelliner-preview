@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import Menubar from '@/Components/MultiPage/MultiPage-1/MenubarM1';
-import Footer from '@/Components/MultiPage/MultiPage-1/FooterM1';
+import Menubar from '../../Components/MultiPage/MultiPage-1/MenubarM1';
+import Footer from '../../Components/MultiPage/MultiPage-1/FooterM1';
 
 // icon
 import { AiOutlineHeart,AiFillHeart } from "react-icons/ai";

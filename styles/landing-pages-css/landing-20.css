@@ -172,16 +172,13 @@
 
 
 .Landing__20__img2BagAbs{
-    position: absolute;
     top:-60px;
     left:80px;
     width: 115%;
+    position: relative;
+    animation: mbjy5565 3s  ease-in infinite alternate;
 }
  
-.Landing__20__img2BagAbs {
-  position: relative;
-  animation: mbjy5565 3s  ease-in infinite alternate;
-}
 
 @keyframes mbjy5565 {
   from {top: 0px;}
@@ -379,11 +376,10 @@
     position: absolute;
     top:-220px;
     left: -25px;
-    background: none;
     font-size: 28px;
     color:#FFF;
     width: 42px;
-    background:linear-gradient(to left, #5493FF,#F165AA);
+    background-image:linear-gradient(to left, #5493FF,#F165AA);
     z-index: 2;
     border-radius: 100px;
   }
@@ -392,11 +388,10 @@
     position: absolute;
     top:-220px;
     right: -25px;
-    background: none;
     font-size: 28px;
     color:#FFF;
     width: 42px;
-    background:linear-gradient(to left, #5493FF,#F165AA);
+    background-image:linear-gradient(to left, #5493FF,#F165AA);
     z-index: 2;
     border-radius: 100px;
   }
@@ -504,11 +499,9 @@
 }
 .Landing__20 .watchTypeImgwatch img{
       width: 60%;
+      animation: Ibrahimhgftu 4s ease-in infinite alternate;
 }
  
-.Landing__20 .watchTypeImgwatch img {
-  animation: Ibrahimhgftu 4s ease-in infinite alternate;
-}
 
 @keyframes Ibrahimhgftu {
   0%{transform:translate(-200px);}
@@ -532,12 +525,10 @@
   top:200px;
   left:0;
   height: 520px;
-  
-}
-  
-.Landing__20 .OrderTemplate3AbsImg1 {
   animation: gfdytf4576 4s  ease-in infinite alternate;
+  
 }
+  
 
 @keyframes gfdytf4576 {
   from {top: 0px;}
@@ -550,11 +541,9 @@
   top:200px;
   right:0;
   height: 520px;
-}
-
-.Landing__20 .OrderTemplate3AbsImg2 {
   animation: gfdytf4596 4s  ease-in infinite alternate;
 }
+
 
 @keyframes gfdytf4596 {
   from {top: 0px;}
@@ -987,12 +976,9 @@
 .Landing__20__Order3Abs h4 {
   margin-top: 236px;
   margin-bottom: 90px;
-}
-
-.Landing__20__Order3Abs h4 {
   font-size: 44px;
-
 }
+
 
 .Landing__20__Order3Abs h3 {
   font-size: 90px;
@@ -1187,9 +1173,6 @@
   font-size: 28px;
 }
 
-.Landing__20__Order3Abs h3 {
-  font-size: 48px;
-}
 
 .Landing__20__Order3Abs .Landing__20__spanOdr2 {
   font-size: 22px;
@@ -1213,6 +1196,7 @@
 }
 
 .Landing__20__Order3Abs h3 {
+  font-size: 48px;
   line-height: 31px;
   color: #FFFFFF;
   margin-bottom: 30px;

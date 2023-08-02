@@ -152,7 +152,6 @@
     font-size: 35px;
     line-height: 46px;
     color:#06476E;
-    font-weight: 400;
     padding: 10px 50px 10px 26px;
     border: 4px solid #FFFFFF;
     display: inline-block;
@@ -218,11 +217,10 @@
   top:0;
   left: 80px;
   z-index: 1;
-}
-
-.Landing__17__img2Abs {
   animation: ibrahim256s 12s infinite linear;
 }
+
+
 
 @keyframes ibrahim256s {
   from {transform: rotate(0);}
@@ -368,15 +366,13 @@ color: #fff;
   margin-top: -280px;
 }
 
-.Landing__17 .Landing__17__Order3 {
-  margin-top: -60px;
-}
 
 .Landing__17 .Landing__17__Order3 img{
   height: 129px;
 }
 
 .Landing__17 .Landing__17__Order3 {
+  margin-top: -60px;
   display:flex ;
   justify-content: center;
   align-items: center;
@@ -556,13 +552,14 @@ color: #fff;
  ===================================================================================================================*/
 
             .Landing__17 .swiper-button-prev {
-              left: 10px;
               right: auto;
               padding: 10px 20px !important;
               background-image: linear-gradient(to bottom, #45d5f6, #2fc4ee, #19b3e6, #09a2dc, #0c91d1);
               border-radius: 50px;
               width: 40px !important;
               height: 40px !important;
+              left: 0px !important;
+              
           }
 
           .Landing__17 .swiper-button-next {
@@ -573,6 +570,8 @@ color: #fff;
               border-radius: 50px;
               width: 40px !important;
               height: 40px !important;
+              right: 0px !important;
+             
           }
 
           .Landing__17 .swiper-button-next:after{
@@ -586,19 +585,7 @@ color: #fff;
           }
 
 
-          .Landing__17 .swiper-button-prev {
-              left: 0px !important;
-              left: auto;
-             
-             
-          }
-
-          .Landing__17 .swiper-button-next {
-              right: 0px !important;
-              right: auto;
-              
-          }
-
+        
  /* ================================================================================================
             Fashion
   ===================================================================================================*/
@@ -754,10 +741,6 @@ padding: 0 5px;
   ===================================================================================================*/
 
    
- @media (min-width: 1441px) {
-
-
- }
  
   @media (max-width: 1440px) {
  
@@ -993,13 +976,6 @@ padding: 0 5px;
 }
 
 
-.Landing__17__Card {
-  background-color: #D7F3FB;
-  padding: 50px 15px 90px 15px;
-  height: 414px;
-  text-align: center;
-  border-radius: 150px;
-}
 
 .Landing__17__Card {
   background-color: #D7F3FB;
@@ -1146,9 +1122,6 @@ padding: 0 5px;
     height: 148px;
 }
 
-.Landing__17__RowPad{
-  flex-direction: column-reverse;
-}
  
 .Landing__17__Banner1{
   margin-top: 450px;
@@ -1174,6 +1147,7 @@ padding: 0 5px;
 }
 
 .Landing__17__RowPad {
+  flex-direction: column-reverse;
   padding-top: 163px;
   padding-bottom: 80px;
 }
@@ -1266,6 +1240,7 @@ padding: 0 5px;
 }
 
 .Landing__17__FooterBgRow_Div{
+  padding: 40px 0px;
   display: block;
   text-align: center;
 }
@@ -1277,10 +1252,6 @@ padding: 0 5px;
 
 .Landing__17__FooterMidDiv {
   margin: 0 auto;
-}
-
-.Landing__17__FooterBgRow_Div {
-  padding: 40px 0px;
 }
 
 .Landing__17__FooterHr {
@@ -1310,9 +1281,6 @@ padding: 0 5px;
   z-index: 1;
 }
 
-.Landing__17__Banner1 {
-  margin-top: 369px;
-}
 
 .Landing__17 h1 {
   font-size: 24px;

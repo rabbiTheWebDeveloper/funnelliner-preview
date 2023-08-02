@@ -122,7 +122,6 @@
     #ff1361 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -216,7 +215,9 @@
     left:80px;
     width: 100%;
     transition: 1s;
+    animation: gfd6i35468 3s ease-in-out infinite alternate;
 }
+
 .Landing__21__img2BagAbs2{
     position: absolute;
     top:160px;
@@ -224,10 +225,6 @@
     height: 219px;
 }
 
-.Landing__21__img2BagAbs {
- 
-    animation: gfd6i35468 3s ease-in-out infinite alternate;
-  }
   
   @keyframes gfd6i35468 {
     from {top:0}
@@ -437,9 +434,8 @@
     left: -5%;
     width: 80%;
     height: 120%;
-    background:#faf0d5 ;
     border-radius: 5%;
-    background: linear-gradient(to right, #FFF6A1,#E0AA55);
+    background-image: linear-gradient(to right, #FFF6A1,#E0AA55);
 
 }
 
@@ -469,11 +465,10 @@
     position: absolute;
     bottom:-90px;
     left: 46%;
-    background: none;
     font-size: 28px;
     color:#FFF;
     width: 42px;
-    background:linear-gradient(to left, #E0AA55,#FFF6A1);
+    background-image:linear-gradient(to left, #E0AA55,#FFF6A1);
     z-index: 2;
     border-radius: 100px;
   }
@@ -482,11 +477,10 @@
     position: absolute;
     bottom:-90px;
     right: 46%;
-    background: none;
     font-size: 28px;
     color:#FFF;
     width: 42px;
-    background:linear-gradient(to left, #E0AA55,#FFF6A1);
+    background-image:linear-gradient(to left, #E0AA55,#FFF6A1);
     z-index: 2;
     border-radius: 100px;
   }
@@ -792,11 +786,7 @@
        
     }
 
-    .Landing__21__Order1Abs h5{
-        font-size: 20px;
-        line-height: 26px;
-    }
-
+   
     .Landing__21__Card p{
         font-size: 20px;
         line-height: 26px;
@@ -872,16 +862,12 @@
         font-weight: 900;
     }
 
-    .Landing__21__Order1Abs h5 {
+    .Landing__21__Order1Abs h5{
+        font-size: 20px;
+        line-height: 26px;
         margin: 15px 0px;
     }
-   
-    .Landing__21 .Landing__21__Order1 .bg1 {
-        color: #443513;
-        padding: 24px 81px;
-        font-size: 32px;
-        line-height: 64px;
-    }
+
 
     .Landing__21 .Landing__21__Order1 .bg1 {
         color: #443513;
@@ -1030,9 +1016,6 @@
         font-size: 22px;
     }
 
-    .Landing__21__AbsB_Box img{
-        height: 80px;
-    }
 
     .Landing__21__AbsB_Box {
         position: absolute;
@@ -1044,6 +1027,7 @@
     }
 
     .Landing__21__AbsB_Box img {
+        height: 80px;
         position: absolute;
         left: -49px;
         top: -15px;
@@ -1262,12 +1246,6 @@
     .Landing__21 h2 {
         font-size: 22px;
         line-height: 30px;
-    }
-
-    .Landing__21 p {
-        color: #745D28;
-        font-size: 16px;
-        line-height: 24px;
     }
 
     .Landing__21__Order1Img {

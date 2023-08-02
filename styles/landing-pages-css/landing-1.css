@@ -10,11 +10,9 @@
     --white: #FFF;
     --sari_bg : #EC3361;
     --probashi_bg : #FF0034;
-}
-
-.Landing__1 {
     overflow-x: hidden;
 }
+
 
 
 .Landing__1 .container a {
@@ -582,6 +580,7 @@
 
 .Landing__1 .FooterLogo {
     margin-right: 50px;
+    margin-left: 25%;
 }
 
 .Landing__1 .FooterLogo img {
@@ -599,6 +598,7 @@
 
 .Landing__1 .FooterItem {
     margin-bottom: 10px;
+    margin-left: 25%;
 }
 
 .Landing__1 .FooterItem h4 {
@@ -642,13 +642,7 @@
     line-height: 30px;
 }
 
-.Landing__1 .FooterItem{
-    margin-left: 25%;
-}
 
-.Landing__1 .FooterLogo{
-    margin-left: 25%;
-}
 
 /* ====================================================================================================
         Midea Quari
@@ -698,6 +692,7 @@
 
     .Landing__1 .StudentPackage .SliderOverlayItem img {
         height: 400px;
+        height: 380px;
     }
 
     .Landing__1 .MainPage .PackageItem .text p {
@@ -723,9 +718,6 @@
         height: 130px;
     }
 
-    .Landing__1 .StudentPackage .SliderOverlayItem img {
-        height: 380px;
-    }
 
     .Landing__1 .SocialIcon a {
         width: 70px;
@@ -923,7 +915,9 @@
         bottom: 35px;
         left: 0;
         width: 100%;
+        bottom: 30px;
     }
+
 
     .Landing__1 .CustomerReviewItem .Quate {
         top: 15px;
@@ -1026,7 +1020,9 @@
 
     .Landing__1 .FooterLogo {
         margin-right: 0;
+        margin-left: 0%;
     }
+
 
     .Landing__1 .StudentPackage .VideoItem div {
         width: 100% !important;
@@ -1052,10 +1048,7 @@
         justify-content: center;
     }
 
-    .Landing__1 .MainPage  .swiper-pagination-fraction {
-        bottom: 30px;
-    }
-
+ 
 
     .Landing__1 .ChocolateBox #banner .banner_img {
         width: 80%;
@@ -1094,10 +1087,7 @@
         margin-left: 0%;
     }
     
-    .Landing__1 .FooterLogo{
-        margin-left: 0%;
-    }
-    
+ 
   
 
 }
@@ -1150,14 +1140,6 @@
         font-size: 13px;
     }
 
-    .Landing__1 .StudentPackage h2 {
-        font-size: 28px;
-        line-height: 35px;
-    }
-
-    .Landing__1 .StudentPackage .SliderOverlayItem img {
-        height: 280px;
-    }
 
     .Landing__1 .StudentPackage .VideoItem div {
         width: 100% !important;
@@ -1172,6 +1154,8 @@
         font-size: 22px;
         line-height: 35px;
         text-align: center;
+        font-size: 28px;
+        line-height: 35px;
     }
 
     .Landing__1 .SariAboutText p {

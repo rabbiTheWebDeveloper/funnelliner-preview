@@ -213,7 +213,6 @@
 .Landing__12 .Bannertxtbox h5 {
     font-size: 54px;
     line-height: 99px;
-    font-weight: 700;
     color: #593A1B;
     margin-top: 40px;
     font-weight: 900;
@@ -302,8 +301,7 @@
 .Landing__12 .SliderBtn1 svg {
     font-size: 35px !important;
     color: #000;
-
-
+    font-size: 15px;
 }
 
 .Landing__12 .SliderBtn2 svg {
@@ -311,9 +309,6 @@
     color: #000;
 }
 
-.Landing__12 .SliderBtn1 svg {
-    font-size: 15px;
-}
 
 .Landing__12 .SliderBtn2 {
     position: absolute;
@@ -333,6 +328,8 @@
 /* ========================================================================================================================
         Banner Three 
 ============================================================================================================================*/
+
+
 .Landing__12 .Banner3AbsImg {
     position: absolute;
     top: 280px;
@@ -444,20 +441,11 @@
     left: 0;
     z-index: 5;
     width: 200px;
-}
-
-.Landing__12 .BannerMAbsImgAll2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.Landing__12 .BannerMAbsImgAll {
-
     animation: mymove4 25s infinite alternate;
-
 }
+
+
+
 
 @keyframes mymove4 {
 
@@ -478,7 +466,12 @@
 .Landing__12 .BannerMAbsImgAll2 {
 
     animation: mymove6 25s infinite alternate;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
 }
+
 
 @keyframes mymove6 {
 
@@ -573,13 +566,13 @@
 
 
 .Landing__12 .swiper-button-prev {
-    left: 10px;
     right: auto;
     padding: 10px 20px !important;
     background: #FFCB05;
     border-radius: 50px;
     width: 40px !important;
     height: 40px !important;
+    left: auto;
 }
 
 .Landing__12 .swiper-button-next {
@@ -590,6 +583,8 @@
     border-radius: 50px;
     width: 40px !important;
     height: 40px !important;
+    right: 5px !important;
+
 }
 
 .Landing__12 .swiper-button-next:after{
@@ -603,15 +598,6 @@
 }
 
 
-.Landing__12 .swiper-button-prev {
-    left: 5px !important;
-    left: auto;
-}
-
-.Landing__12 .swiper-button-next {
-    right: 5px !important;
-    right: auto;
-}
 
 
 
@@ -645,6 +631,7 @@
 
                 .Landing__12 #OrderConfirmLeft #Payment #ArrowBg p {
                     color: #ffffff;
+                    line-height: 25px;
                 }
 
                 .Landing__12 #OrderConfirmLeft #Payment #ArrowBg::after {
@@ -655,9 +642,6 @@
                     background: #FFCB05;
                 }
 
-                .Landing__12 #OrderConfirmLeft #Payment #ArrowBg p {
-                    line-height: 25px;
-                }
 
     /* ========================================================================================================================
             Media Quary
@@ -666,7 +650,7 @@
 
 
 
-@media (min-width: 1441px) {}
+
 
 @media (max-width: 1440px) {
     .Landing__12 .FooterBgTxtBox img {
@@ -885,6 +869,7 @@ top: -95px;
     .Landing__12 .Bannertxtbox h4 {
         font-size: 34px;
         line-height: 100px;
+        margin-bottom: 40px;
     }
 
     .Landing__12 .Bannertxtbox h4 span {
@@ -905,10 +890,6 @@ top: -95px;
     }
 
 
-
-    .Landing__12 .Bannertxtbox h4 {
-        margin-bottom: 40px;
-    }
 
     .Landing__12 .Bannertxtbox h5 {
         font-size: 34px;
@@ -958,10 +939,7 @@ top: -95px;
         top: -129px;
     }
 
-    .Landing__12 .Banner2imgAbs2 {
-        width: 350px;
-        bottom: -300px;
-    }
+ 
 
     .Landing__12 .Banner3AbsImg {
         width: 160px;
@@ -1044,10 +1022,11 @@ top: -95px;
 
     }
 
+
     .Landing__12 .Banner2imgAbs2 {
         width: 338px;
+        bottom: -300px;
     }
-
 
 }
 
@@ -1142,16 +1121,10 @@ top: -95px;
         width: 100px;
     }
 
-    .Landing__12 .Banner2imgAbs {
-        width: 172px;
-    }
-
     .Landing__12 .SliderImg img {
         width: 100%;
         height: 180px;
     }
-
-
 
     .Landing__12 .Banner3AbsImg {
         width: 112px;

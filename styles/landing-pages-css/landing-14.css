@@ -811,9 +811,7 @@ Common
         order: 2;
     }
 
-    .Landing__14__Banner__Right img {
-        height: 351px;
-    }
+   
 
     .Landing__14__Banner__Right {
         margin-left: 0;
@@ -825,8 +823,9 @@ Common
         width: auto;
     }
 
-    .Landing__14__Banner__Left{
-        margin-top: 20px;
+
+    .Landing__14__Banner__Left {
+        margin-top: 30px;
     }
 
     .Landing__14__Welcome__Img {
@@ -910,9 +909,7 @@ Common
     }
 
 
-    .Landing__14__Banner__Left {
-        margin-top: 30px;
-    }
+  
 
     .Landing__14__BannerImg {
         width: 100%;
@@ -937,21 +934,14 @@ Common
         right: 54px;
     }
 
-    .Landing__14 h1 {
-        font-size: 22px;
-        line-height: 33px;
-        padding: 20px 0;
-        text-align: center;
-    }
-
    
     .Landing__14__Banner__Img img {
         height: 60px;
         width: auto;
     }
 
-    .Landing__14__Delivay{
-        margin-top:195px;
+    .Landing__14__Delivay {
+        margin-top: 0px;
     }
 
     .Landing__14 h1 {
@@ -972,11 +962,7 @@ Common
         text-align: center;
     }
 
-    .Landing__14 :where(a, button) {
-        font-size: 25px;
-        line-height: 35px;
-        padding: 15px 50px !important;
-    }
+ 
 
     .Landing__14__Banner__Text h3::after {
         width: 100%;
@@ -1071,9 +1057,7 @@ Common
         padding: 9px 50px !important;
     }
 
-    .Landing__14__Delivay {
-        margin-top: 0px;
-    }
+  
 
     .Landing__14 h2 {
         font-size: 20px;

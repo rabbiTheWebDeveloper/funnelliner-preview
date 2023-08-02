@@ -300,10 +300,6 @@ height: 287px;
 
 }
 
-.Landing__13 .SliderBtn1 svg {
-    font-size: 15px;
-
-}
 
 .Landing__13 .SliderBtn2 {
     position: absolute;
@@ -535,10 +531,6 @@ Order Confram
     background: #FFCB05;
 }
 
-.Landing__13 #OrderConfirmLeft #Payment #ArrowBg p {
-    color: #ffffff;
-}
-
 .Landing__13 #OrderConfirmLeft #Payment #ArrowBg::after {
     border-bottom: solid 15px #FFCB05;
 }
@@ -549,6 +541,7 @@ Order Confram
 
 .Landing__13 #OrderConfirmLeft #Payment #ArrowBg p {
     line-height: 25px;
+    color: #ffffff;
 }
 
 
@@ -573,6 +566,8 @@ Order Confram
     left: 0;
     z-index: 15;
     width: 200px;
+    animation: mymove 25s infinite alternate;
+
 }
 
 .Landing__13 .BannerMAbsImgAll2 {
@@ -580,13 +575,9 @@ Order Confram
     top: 0;
     right: 0;
     z-index: 15;
+    animation: mymove2 25s infinite alternate;
 }
 
-.Landing__13 .BannerMAbsImgAll {
-
-    animation: mymove 25s infinite alternate;
-
-}
 
 @keyframes mymove {
 
@@ -604,10 +595,6 @@ Order Confram
 }
 
 
-.Landing__13 .BannerMAbsImgAll2 {
-
-    animation: mymove2 25s infinite alternate;
-}
 
 @keyframes mymove2 {
 
@@ -723,23 +710,23 @@ Order Confram
 ===================================================================================================================*/
 
 .Landing__13 .swiper-button-prev {
-    left: 10px;
     right: auto;
     padding: 10px 20px !important;
     background: #FFCB05;
     border-radius: 50px;
     width: 40px !important;
     height: 40px !important;
+    left: 5px !important;
 }
 
 .Landing__13 .swiper-button-next {
-    right: 10px;
     left: auto;
     padding: 10px 20px !important;
     background: #FFCB05;
     border-radius: 50px;
     width: 40px !important;
     height: 40px !important;
+    right: 5px !important;
 }
 
 .Landing__13 .swiper-button-next:after {
@@ -753,25 +740,9 @@ Order Confram
 }
 
 
-.Landing__13 .swiper-button-prev {
-    left: 5px !important;
-    left: auto;
-
-}
-
-.Landing__13 .swiper-button-next {
-    right: 5px !important;
-    right: auto;
-
-}
-
-
 .Landing__13 .OrderConfirmFrom h3 {
-
     font-size: 30px !important;
-
 }
-
 
 
 
@@ -795,13 +766,11 @@ Order Confram
 
 
 
-
 /* ========================================================================================================================
         Media Quary
 =============================================================================================================================*/
 
 
-@media (min-width: 1441px) {}
 
 @media (max-width: 1440px) {
 

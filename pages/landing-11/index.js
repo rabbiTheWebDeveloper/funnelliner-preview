@@ -148,9 +148,6 @@ const index = () => {
 
             <section  className="StoreRel">
 
-                    <img  className="StoreAbs1" src="/images/landing-11/img3.svg" alt="img" />
-                    <img  className="StoreAbs2" src="/images/landing-11/img4.svg" alt="img" />
-
             
                 <Container>
 

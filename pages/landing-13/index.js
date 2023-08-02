@@ -38,7 +38,6 @@ import Video from '../../Components/LandingPage/Common/Video/Video';
 
 const index = () => {
 
-    // const swiperRef = useRef();
 
   return (
 
@@ -899,23 +898,6 @@ const index = () => {
 
                 <TinyFooter/>
 
-
-                
-                <div className="Banner2Rel">
-
-                  <img
-                    className="BannerMAbsImgAll"
-                    src="/images/landing-13/img30.svg"
-                    alt="img"
-                  />
-
-                  <img
-                    className="BannerMAbsImgAll2"
-                    src="/images/landing-13/img31.svg"
-                    alt="img"
-                  />
-
-                </div>
 
               </Row>
 

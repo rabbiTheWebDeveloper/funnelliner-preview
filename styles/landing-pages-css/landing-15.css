@@ -9,12 +9,11 @@
   }
 
 .Landing__15 ul{
-
+    list-style: none;
     padding: 0;
-    
   }
-  
-  
+
+
   .Landing__15 h1{
       font-size: 48px;
       line-height: 70px;
@@ -119,11 +118,7 @@
       margin-top: 100px;
   }
  
-  .Landing__15 ul{
 
-    list-style: none;
-
-  }
 
   /* ================================================================================================
             Banner
@@ -593,11 +588,13 @@
     
 }
 
-.Landing__15 .Landing__15_Footer_ulBox2 h2{
-    text-align: left;
-   font-size: 40px;
-   padding-left: 5%;
+
+.Landing__15 .Landing__15_Footer_ulBox2 h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5%;
 }
+
 
 .Landing__15_Footer_ulBox2 .bg{
    margin-left: 5%;
@@ -647,11 +644,6 @@
 }
 
 
-.Landing__15 .Landing__15_Footer_ulBox2 h2 {
-    text-align: center;
-    font-size: 30px;
-    padding-left: 5%;
-}
 
 
 
@@ -678,11 +670,7 @@
         padding: 40px 0px 40px 0px;
   }
   
-    .Landing__15 h1 {
-        font-size: 52px;
-        line-height: 73px;
-    }
-    
+  
     .Landing__15 h3 {
         font-size: 40px;
         line-height: 20px;
@@ -984,15 +972,8 @@
     .Landing__15 .Landing__15_Footer_ulBox2 h2 {
         text-align: left;
     }
-    
 
 
-  }
-  
-  
-  @media (max-width: 768px) {
-  
-  
   }
   
   
@@ -1027,7 +1008,7 @@
     }
     .Landing__15_Footer_ulBox2 h2 {
         text-align: center;
-     
+        font-size: 24px;
     }
 
     .Landing__15_Bannar_Shipping_txt1 h6 {
@@ -1035,10 +1016,6 @@
         padding: 53px 5% 119px 5%;
     }
 
-    .Landing__15_Footer_ulBox2 h2 {
-
-        font-size: 24px;
-    }
 
     .Landing__15_OrderT1_div {
         margin-top: 80px;
@@ -1046,11 +1023,6 @@
 
     }
 
-    .Landing__15_OrderT1_divAbs h5 {
-        color: #FFFFFF;
-        font-size: 16px;
-        line-height: 31px;
-    }
 
     .Landing__15_OrderT1_divAbs h4 {
         font-size: 24px;
@@ -1109,10 +1081,6 @@
 
     .Landing__15 h6 {
        text-align: center;
-    }
-
-    .Landing__15_Model_Txt_Div {
-        padding-left: 0px;
     }
 
     .Landing__15 h2 {

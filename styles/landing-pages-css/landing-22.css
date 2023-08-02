@@ -49,7 +49,6 @@
       background:#7E4A13;
       background-size: 180% auto;
       display: inline-block;
-      transition: .2s;
       font-weight: 600;
       border-radius: 100px;
       font-size: 32px;
@@ -146,7 +145,6 @@
     #ff1361 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -280,11 +278,9 @@
   position: absolute;
   height: 608px;
   margin-top: 300px;
-}
-
-.Landing__22__OilAbs1{
   animation: jyguiy35468 7s infinite linear;
 }
+
 
 @keyframes jyguiy35468 {
   from {transform:rotate(0) ;}
@@ -1200,9 +1196,6 @@ margin-right: -25px;
   margin-right: 153px;
 }
 
-.Landing__22__OildetailsFlex {
-  display: block;
-}
 
 .Landing__22__OildetailsFlex > div div {
   background-color: #7E4A13;
@@ -1215,6 +1208,7 @@ margin-right: -25px;
 }
 
 .Landing__22__OildetailsFlex {
+  display: block;
   padding-bottom: 40px;
 }
 
@@ -1267,11 +1261,9 @@ margin-right: -25px;
   top: -2px;
   width: 216px;
   height: 71px;
-}
-
-.Landing__22__LinkAbs {
   left: 19%;
 }
+
 
 .Landing__22__AbsB_Box img {
   position: absolute;
@@ -1346,10 +1338,6 @@ margin-right: -25px;
   margin-bottom: 32px;
 }
 
-.Landing__22__Order2Abs h4 {
-  font-size: 28px;
-}
-
 .Landing__22 .Landing__22__Order2Img {
   height: 292px;
 }
@@ -1359,6 +1347,7 @@ margin-right: -25px;
   color: #FFFFFF;
   margin: 4px 0px;
   font-weight: 900;
+  font-size: 28px;
 }
 
 .Landing__22__Order2TxtDiv {
@@ -1446,10 +1435,6 @@ margin-right: -25px;
 
      }
  
- @media (max-width: 450px) {
- 
-    
-     }
 
 
 /* ================================================================================================

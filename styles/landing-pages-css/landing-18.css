@@ -95,7 +95,6 @@
     #ff1361 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -166,6 +165,7 @@
     left:550px;
     width: 38%;
     z-index: 2;
+    animation: Ibrahim25bfd 3s infinite linear alternate ;
 }
 
 .Landing__18__img2BagAbs{
@@ -175,9 +175,7 @@
     width: 105%;
 }
 
-.Landing__18__img1DisAbs{
-  animation: Ibrahim25bfd 3s infinite linear alternate ;
-}
+
 
 @keyframes Ibrahim25bfd {
   0% {transform: rotate(-10deg);}
@@ -239,7 +237,12 @@
 
 
 .Landing__18__ImgAbsR2{
+  position: absolute;
+  width: 65%; 
+  left:-30px;
+  top:150px;
   animation: Ibrahim25htf 2s linear infinite alternate  ;
+
 }
 
 @keyframes Ibrahim25htf {
@@ -248,14 +251,6 @@
  100%{transform: rotate(-10deg);}
 } 
 
-
-
-.Landing__18__ImgAbsR2{
-  position: absolute;
-  width: 65%; 
-  left:-30px;
-  top:150px;
-}
 
 .Landing__18__ReqTxt h2{
   padding-bottom: 40px;
@@ -675,33 +670,28 @@
     position: absolute;
     left: 100px;
     bottom: 100px;
-  }
-
-  .Landing__18__Abs3{
     animation: Ibrahim54hgf 2s linear infinite alternate  ;
   }
-  
+
   @keyframes Ibrahim54hgf {
     0% {transform: translateX(0px);}
    100%{transform: translateX(30px);;}
   } 
 
   .Landing__18__Abs4{
-    animation: Ibrahimhtf6 2s linear infinite alternate  ;
+      animation: Ibrahimhtf6 2s linear infinite alternate  ;
+      position: absolute;
+      right: 100px;
+      bottom: 100px;
   }
   
+
   @keyframes Ibrahimhtf6 {
     0% {transform: translateX(0px);}
    100%{transform: translateX(-30px);;}
   } 
 
   
-  .Landing__18__Abs4{
-    position: absolute;
-   right: 100px;
-    bottom: 100px;
-  }
-
 
     /* ================================================================================================
             Media Quary
@@ -745,13 +735,6 @@
   width: 97%;
 }
 
-.Landing__18__img1DisAbs {
-  position: absolute;
-  top: -148px;
-  left: 418px;
-  width: 33%;
-  z-index: 2;
-}
 
 .Landing__18__img1DisAbs {
   position: absolute;
@@ -985,11 +968,6 @@ width: 26%;
   width: 72%;
 }
 
-.Landing__18__CircleImg2{
-position: absolute;
-margin-top: -100px;
-width: 26%;
-}
 
 .Landing__18__CircleTxt1{
   position: absolute;
@@ -1158,6 +1136,7 @@ width: 26%;
 
     .Landing__18__BannerTxt{
       margin-top: 400px;
+      text-align: center;
     }
   
     .Landing__18__ImgAbsR1 {
@@ -1174,10 +1153,6 @@ width: 26%;
 
 .Landing__18__ReqTxt{
     margin-top: 450px;
-}
-
-.Landing__18__BannerTxt {
-  text-align: center;
 }
 
 .Landing__18__AbsB_Box {
@@ -1380,11 +1355,6 @@ width: 26%;
   margin: 30px 0px;
 }
 
-.Landing__18__SliderIcon2 {
-  background: none;
-  font-size: 24px;
-  color: #1D4696;
-}
 
 .Landing__18__SliderIcon1 {
   background: none;

@@ -8,11 +8,7 @@
   
   }
 
-.Landing__16 ul{
-    padding: 0;
-    
-  }
-  
+
   .Landing__16 h1{
       font-size: 48px;
       line-height: 71px;
@@ -80,9 +76,8 @@
   }
  
   .Landing__16 ul{
-
+    padding: 0;
     list-style: none;
-
   }
 
   /* ================================================================================================
@@ -155,17 +150,14 @@
   }
 
   .Landing__16__Slider_Box_img1{
-    position: absolute;
     width: 120%;
     top:0px;
     left: 108px;
     z-index: 1;
-  }
-
-  .Landing__16__Slider_Box_img1 {
     position: relative;
     animation: ibrahim 10s infinite alternate linear;
   }
+
   
   @keyframes ibrahim {
     from {transform: rotate(0deg);}
@@ -255,7 +247,9 @@
 
   .Landing__16__Ul_div li{
     margin-top: 24px;
+    display: flex;
   }
+
 
   .Landing__16 .Landing__16_P_Gap{
       margin-bottom: 80px;
@@ -268,6 +262,8 @@
     padding-bottom: 50px;
     background-image: url('../../public/images/landing-16/img3.png');
     background-size: cover;
+    position: relative;
+    z-index: 0;
   }
 
   .Landing__16__DanimBg_Img{
@@ -371,15 +367,9 @@
   .Landing__16__Ul_div li img{
     margin-bottom: auto;
 }
-  .Landing__16__Ul_div li {
-    display: flex;
-}
 
 
-.Landing__16__DanimBg{
-  position: relative;
-  z-index: 0;
-}
+
 
 .Landing__16__DanimBg::after {
     content: '';
@@ -600,16 +590,15 @@
     top: 443px;
   }
 
-  .Landing__16 h1 {
-    font-size: 40px;
-    line-height: 54px;
-}
+
 
 .Landing__16__Banner_div h3 {
   font-size: 40px;
   line-height: 36px;
+  padding-bottom: 20px;
 }
 
+  
 .Landing__16__Slider_Box_img {
 position: absolute;
 width: 67%;
@@ -653,6 +642,9 @@ width: 28px;
 .Landing__16__txt_B h5 {
 color: #FFFFFF;
 font-size: 24px;
+line-height: 36px;
+padding: 10px 27px;
+border-radius: 50px 0px 50px 0px;
 }
 
 .Landing__16__txt_B li {
@@ -660,19 +652,13 @@ padding: 0px 27px;
 
 }
 
-.Landing__16__txt_B h5 {
-font-size: 24px;
-line-height: 36px;
-padding: 10px 27px;
-border-radius: 50px 0px 50px 0px;
-
-}
 
 
 .Landing__16__Banner_div h4 {
-padding: 10px 27px;
-border-radius: 50px 0px 50px 0px;
-font-size: 20px;
+    padding: 10px 27px;
+    border-radius: 50px 0px 50px 0px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .Landing__16 h1 {
@@ -686,9 +672,6 @@ padding: 20px 60px;
 font-size: 28px;
 }
 
-.Landing__16__Banner_div h3 {
-padding-bottom: 20px;
-}
 
 .Landing__16__Banner_div h6 {
 padding-top: 18px;
@@ -700,9 +683,6 @@ line-height: 35px;
 padding-top: 14px;
 }
 
-.Landing__16__Banner_div h4 {
-margin-top: 35px;
-}
 
 /* Banner end */
 
@@ -717,10 +697,13 @@ margin-top: 35px;
       line-height: 54px;
   }
 
-  .Landing__16__Banner_div h3 {
-    font-size: 40px;
-    line-height: 36px;
+
+.Landing__16__Banner_div h3 {
+  font-size: 40px;
+  line-height: 36px;
+  padding-bottom: 20px;
 }
+
 
 .Landing__16__Slider_Box_img {
   position: absolute;
@@ -737,13 +720,6 @@ margin-top: 35px;
   top: 0px;
   left: 95px;
 }
-
-/* .Landing__16__txt_B {
-  position: absolute;
-  left: 82px;
-  top: 450px;
-} */
-
 
 
 .Landing__16__Slider_B_Box {
@@ -762,10 +738,6 @@ margin-top: 35px;
 
 }
 
-.Landing__16__txt_B h5 {
-  color: #FFFFFF;
-  font-size: 24px;
-}
 
 .Landing__16__txt_B li {
   padding: 0px 27px;
@@ -773,6 +745,7 @@ margin-top: 35px;
 }
 
 .Landing__16__txt_B h5 {
+  color: #FFFFFF;
   font-size: 24px;
   line-height: 36px;
   padding: 10px 27px;
@@ -792,6 +765,7 @@ margin-top: 35px;
   padding: 10px 27px;
   border-radius: 50px 0px 50px 0px;
   font-size: 20px;
+  margin-top: 35px;
 }
 
 .Landing__16 h1 {
@@ -805,9 +779,6 @@ margin-top: 35px;
   font-size: 28px;
 }
 
-.Landing__16__Banner_div h3 {
-  padding-bottom: 20px;
-}
 
 .Landing__16__Banner_div h6 {
   padding-top: 18px;
@@ -819,9 +790,6 @@ margin-top: 35px;
   padding-top: 14px;
 }
 
-.Landing__16__Banner_div h4 {
-  margin-top: 35px;
-}
 
 /* Banner end */
 
@@ -1044,15 +1012,6 @@ margin-top: 35px;
   margin-top: 98px;
 }
 
-.Landing__16__FooterBgRow_Div {
-  padding: 44px 49px;
-
-}
-
-.Landing__16__DanimBg_Img {
-  width: 97%;
-  height: 385px;
-}
 
 .Landing__16__DanimBg_Img {
   width: 97%;
@@ -1069,17 +1028,12 @@ margin-top: 35px;
   line-height: 22px;
 }
 
-.Landing__16 h2 {
-  font-size: 30px;
-  line-height: 43px;
-  text-align: center;
-}
-
 
 .Landing__16__FooterBgRow_Div {
   display: block;
   border-radius: 50px 0px 50px 0px;
   text-align: center;
+  padding: 44px 49px;
 }
 
 .Landing__16__FooterBgRow_Div img{

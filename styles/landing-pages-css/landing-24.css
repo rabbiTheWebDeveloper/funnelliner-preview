@@ -107,7 +107,7 @@
     #ff1361 67%,
     #FFBF0B 100%
   );
-  background-size: auto auto;
+
   background-clip: border-box;
   background-size: 200% auto;
   background-clip: text;
@@ -523,12 +523,10 @@
 
 .Landing__24__FooterItem2 img{
     margin-bottom: 50px;
+    max-height: 110px;
 
 }
 
-.Landing__24__FooterItem2 img {
-  max-height: 110px;
-}
 
 .Landing__24__FooterItem h5{
    background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
@@ -774,6 +772,7 @@
 .Landing__24__Order2bg h4 {
   font-size: 40px;
   line-height: 52px;
+  margin-bottom: 49px;
 }
 
 .Landing__24__Order2bg {
@@ -782,10 +781,6 @@
   margin-top: 81px;
 }
 
-
-.Landing__24__Order2bg h4 {
-  margin-bottom: 49px;
-}
 
 .Landing__24__Order2Abs h4 {
   font-size: 40px;
@@ -1026,11 +1021,11 @@
   margin-top: 543px;
 }
 
+
 .Landing__24 a.bg {
   position: relative;
-  padding: 2px 66px;
+  padding: 2px 55px;
 }
-
 
 .Landing__24 h2 {
   font-size: 22px;
@@ -1086,7 +1081,9 @@
 .Landing__24__Order2Abs h4 {
   line-height: 32px;
   margin: 10px 0px;
+  font-size: 28px;
 }
+
 
 .Landing__24__Order2Abs h5 {
   font-size: 20px;
@@ -1094,10 +1091,6 @@
   color: #000000;
 }
 
-.Landing__24 a.bg {
-  position: relative;
-  padding: 2px 55px;
-}
 
 .Landing__24__FooterItem2 {
   width: 94%;
@@ -1124,12 +1117,6 @@
   margin: 0 auto;
 }
 
-.Landing__24__FooterItem h4 {
-  font-size: 24px;
-  line-height: 31px;
-  margin-top: 50px;
-  padding-bottom: 10px;
-}
 
 .Landing__24__FooterItem h4 {
   font-size: 22px;
@@ -1144,10 +1131,6 @@
   font-weight: 900;
 }
 
-.Landing__24__Order2Abs h4 {
-  font-size: 28px;
-  line-height: 32px;
-}
 
 .Landing__24 a.bg {
   font-size: 20px;
