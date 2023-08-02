@@ -1,0 +1,36 @@
+/* Tiny Footer */
+.tinyFooter p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #42210B;
+    padding: 0 5px;
+}
+
+.tinyFooter p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tinyFooter {
+    margin-top: 50px;
+}
+
+@media (max-width: 575px) {
+ 
+    .tinyFooter p a {
+        display: inline;
+        font-size: 18px;
+        font-weight: 600;
+        color: #42210B;
+        padding: 0 5px;
+    }
+    
+    .tinyFooter p {
+        line-height: 26px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
